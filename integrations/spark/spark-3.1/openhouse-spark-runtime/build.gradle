@@ -41,7 +41,7 @@ dependencies {
   testImplementation("org.apache.iceberg:iceberg-spark-runtime-3.1_2.12:" + icebergVersion) {
     exclude group: "io.netty"
   }
-  testImplementation(project(':tables-test-fixtures:tables-test-fixtures_2.12')) {
+  testImplementation(project(':tables-test-fixtures:tables-test-fixtures-iceberg-1.2')) {
     exclude group: "io.netty"
   }
   testImplementation('org.apache.spark:spark-sql_2.12:' + spark_version){

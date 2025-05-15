@@ -11,7 +11,7 @@ ext {
     hadoopVersion = '2.10.0'
     sparkVersionSuffix = "3.1"
     openhouseSparkRuntimeModule = ":integrations:spark:spark-${sparkVersionSuffix}:openhouse-spark-runtime_2.12"
-    tablesTestFixturesModule = ":tables-test-fixtures:tables-test-fixtures_2.12"
+    tablesTestFixturesModule = ":tables-test-fixtures:tables-test-fixtures-iceberg-1.2"
 }
 
 dependencies {
